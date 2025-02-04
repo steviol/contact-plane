@@ -1,0 +1,12 @@
+import Config
+
+config :contact_plane,
+  vk_token: "",
+  tg_token: "",
+  vk_chat: 2000000002,
+  tg_chat: 582838988,
+  ecto_repos: [Sbl.Repo],
+  muted_ids: ["2039870987"]
+
+config :contact_plane, ContactPlane.Repo,
+  database: "./users.db"
